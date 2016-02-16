@@ -1,0 +1,28 @@
+Title: AiR Program
+
+----
+
+Intro: The Bogong Centre for Sound Culture Artist in Residence Program (BCSC AiR) provides time, space, and an inspiring environment for emerging and established Australian and International artists to explore and develop their creative endeavours.
+
+----
+
+Intro2: BCSC AiR accepts applications from innovative artists working in the following disciplines:
+
+----
+
+Col:
+- Sound Art
+- Music composition
+- Creative Writing
+- New Media
+- Media Art
+- Photography
+- Art Research
+
+----
+
+Col2:
+- Curation
+- Arts Administration
+- Environmental Art
+- Land Art

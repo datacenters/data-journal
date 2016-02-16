@@ -9,6 +9,11 @@
     </div>
 
   </footer>
-
+</div>
+</div>
 </body>
+<?php echo js('assets/js/global.min.js') ?>
+<script>
+
+</script>
 </html>

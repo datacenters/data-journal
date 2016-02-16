@@ -1,0 +1,268 @@
+@font-face {
+	font-family: 'Agipo Regular';
+	src: url('../../fonts/agipo_regular.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/agipo_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../../fonts/agipo_regular.woff') format('woff'), /* Modern Browsers */
+			url('../../fonts/agipo_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+			url('../../fonts/agipo_regular.svg#19bbb355e0bad7b3782c5fb2ed0e0f5a') format('svg'); /* Legacy iOS */
+
+	font-style:   normal;
+	font-weight:  400;
+}
+
+@font-face {
+	font-family: '205-MaaxMono';
+	src: url('../../fonts/205-maaxmono-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/205-maaxmono-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../../fonts/205-maaxmono-webfont.woff') format('woff'), /* Modern Browsers */
+			url('../../fonts/205-maaxmono-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+			url('../../fonts/205-maaxmono-webfont.svg#19bbb355e0bad7b3782c5fb2ed0e0f5a') format('svg'); /* Legacy iOS */
+
+	font-style:   normal;
+	font-weight:  400;
+}
+html {
+	font-size: 62.5%;
+}
+
+
+body {
+	font-family: $alt;
+	font-size: 1.6rem;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-font-feature-settings: "ss01";
+  -ms-font-feature-settings: "ss01";
+  -webkit-font-feature-settings: "ss01";
+  -o-font-feature-settings: "ss01";
+  font-feature-settings: "ss01";
+	letter-spacing: 0.025em;
+}
+h1, h2 {
+	font-size: 2.4rem;
+	text-align: left;
+	font-weight: normal;
+	// text-indent: 2.6em;
+	// padding-left: 2rem;
+	@media only screen
+	and (max-width: 480px) {
+		// letter-spacing: 0.25em;
+	}
+}
+.logo, .location {
+	& h1 {
+		text-align: left;
+		& a {
+			color: white;
+		}
+	}
+	&.active {
+		& h1 {
+			& a {
+				color: white;
+				position: relative;
+				z-index: 1000;
+			}
+		}
+	}
+}
+
+p {
+	@include font-size(1);
+	color: $black;
+	text-indent: 3em;
+	&:first-of-type {
+		text-indent: 0;
+	}
+	&:last-of-type {
+		padding-bottom: 1em;
+	}
+}
+
+header {
+	& a {
+		text-decoration: none;
+		color: $black;
+	}
+}
+
+.full-name {
+	& h1 {
+		@include font-size(1);
+	}
+}
+
+.bio-cv {
+	.bio-text {
+		& h1 {
+			@include font-size(1.5);
+			text-align: left;
+			margin: 0 0 5.2em 0;
+			// display: inline-block;
+			border-bottom: none;
+			color: white;
+		}
+		& p {
+			@include font-size(1.5, 2);
+			// text-indent: 2em;
+			color: white;
+			+ h1 {
+				@include font-size(1);
+				margin: 1.5em 0 0.5em 3em;
+				text-indent: 0;
+				color: white;
+			}
+		}
+		& figure + h1 {
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+.bio {
+	& p {
+		font-size: 1em !important;
+		line-height: 1.35 !important;
+		// text-indent: 3em !important;
+		margin-top: 1.5em;
+		color: white;
+	}
+}
+.details {
+	margin-top: 1.5em;
+	& li {
+		@include font-size(1, 1.35);
+		color: white;
+		// padding-bottom: 0.45em;
+		& a {
+			color: white;
+			border-bottom: 2px solid white;
+		}
+	}
+}
+
+.intro {
+	& p {
+		@include font-size(1);
+	}
+}
+.schrift-text {
+	& h2 {
+		@include font-size(1.25);
+		text-indent: 0;
+		color: white;
+	}
+}
+
+.interview {
+	h1 {
+		font-size: 2.4rem;
+		margin: 5em 0 0 0;
+		text-align: left;
+		text-indent:0;
+		clear: left;
+		color: $black;
+		@media only screen
+		and (max-width: 480px) {
+			@include font-size(1.55, 2);
+			margin-top: 3.5em;
+		}
+	}
+	h2 {
+		font-size: 2.4rem;
+		margin: 0 0 5em 0;
+		text-indent: 0;
+		@media only screen
+		and (max-width: 480px) {
+			@include font-size(1.55, 2);
+		}
+	}
+	& p, figure + p {
+		font-size: 1.8rem;
+		line-height: 1.5;
+		text-indent: 5em;
+		color: $black;
+		position: relative;
+		letter-spacing: 0.015em;
+		&:nth-child(even) {
+			color: #999;
+			text-indent: 0;
+			margin-left: 5em;
+			// font-weight: bold;
+		}
+		& a {
+			border-bottom: 2px solid $black;
+			&:hover {
+				color: #FFCC00;
+				border-bottom: 2px solid #FFCC00;
+			}
+		}
+		+ h1 {
+			@include font-size(1);
+			margin: 1em 0 0.5em 3em;
+			border-bottom: 2px solid $black;
+			display: inline-block;
+			color: $black;
+		}
+	}
+	& li {
+		margin-left: 3em;
+	}
+}
+
+footer {
+	& ul {
+		& li {
+			& a {
+				color: $black;
+				border-bottom: 2px solid $black;
+				text-decoration: none;
+				&:hover {
+					color: blue;
+					border-bottom: 2px solid blue;
+				}
+			}
+		}
+	}
+}
+
+small {
+	font-family: $mono;
+	@include font-size(0.8);
+	display: block;
+}
+
+sup {
+	@include font-size(0.85);
+}
+figcaption {
+	font-family: $mono;
+	@include font-size(0.85);
+	text-align: center;
+	margin-top: 0.5em;
+}
+.initials {
+	font-family: $mono;
+	@include font-size(0.85);
+	margin-left: -7em;
+	margin-right: 5.75em;
+}
+
+.author {
+	font-family: $mono;
+	@include font-size(0.8);
+	display: inline-block;
+	margin-left: 20em;
+	color: #666;
+	@media only screen
+	and (max-width: 480px) {
+		margin-left: 6em;
+	}
+}
+
+.interview header {
+	& small {
+		display: inline-block;
+	}
+}

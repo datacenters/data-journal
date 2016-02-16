@@ -1,0 +1,22 @@
+Title: Biography
+
+----
+
+Text:
+
+This will a list of all interviewees, lsted as designer, foundry, typographer.
+
+----
+
+Bio:
+
+This will a list of all interviewees, lsted as designer, foundry, typographer.
+
+----
+
+Details:
+
+- 14 Barkly Street, East Brunswick VIC 3055
+- +61(0)430.023.734
+- —
+- (email: info@matthewstanton.com.au text: Email me)
