@@ -2,6 +2,14 @@ Title: Home
 
 ----
 
+text:
+
+Instead of viewing the various scales of emergent ubiquitous computing technologies as a haphazard collection of individual processes, devices and standards (RFID, cloud storage, augmented reality, smart cities, conflict minerals, etc.), it is more illuminating to model them as components of a larger, comprehensive, meta-technology.
+
+The Stack is planetary-scale computation understood as a megastructure. The term “stack” is borrowed from the TCP/IP or OSI layered model of distributed network architecture. At the scale of planetary computation, The Stack is comprised of 7 interdependent layers: Earth, Cloud, City, Network, Address, Interface, User. In this, it is an attempt to conceive of the technical and geopolitical structures of planetary computation as a “totality.”
+
+----
+
 Schrift:
 
 is an online research project about the realtionships between those who make, disseminate and use typefaces. Is an online research project about the realtionships between those who make, disseminate and use typefaces.

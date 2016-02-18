@@ -62,8 +62,14 @@ body {
   width: 100%;
   min-height: 100%;
   font-size: 100%;
-  background: #f9f9f9;
+  background: #272727;
+
+  &.interview
+  &.location {
+      display: none;
+  }
 }
+
 
 .ringbinder-top {
   position: fixed;
@@ -86,10 +92,14 @@ body {
 a {
   text-decoration: none;
   color: $black;
+
+  &:hover {
+    color: #39ff14;
+  }
 }
 
 .left {
-  width: 50%;
+  width: 60%;
   max-width: 960px;
   width: 100%;
   height: 100%;
@@ -107,26 +117,62 @@ a {
 }
 
 .home-left {
-  width: 50%;
-  max-width: 960px;
+  width: 60%;
   height: 100%;
+  background: white;
   position: absolute;
   overflow: hidden;
   top: 0; left: 0; bottom: 0;
   padding-top: 2.5rem;
   padding-left: 10rem;
   z-index: 1;
+
+   p {
+     font-size: 2rem;
+     line-height: 1.35;
+     width: 80%;
+     margin-left: 8rem;
+
+     &:first-of-type {
+       margin-top: 7.5rem;
+     }
+   }
 }
 
 .right {
-  width: 45%;
-  // max-width: 690px;
+  width: 40%;
   height: 100%;
-  // position: absolute;
-  background-color: #f9f9f9;
-  // overflow: hidden;
-  top: 0; left: 55%; bottom: 0;
-  padding: 0 4em;
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  padding: 0 2rem;
+
+  .inner {
+    margin-top: 25rem;
+
+    li {
+      font-family: $mono;
+      color: #ccc;
+      padding-left: 2rem;
+      padding-bottom: 0.25rem;
+      &:before {
+        content: '–';
+        margin-right: 0.75rem;
+      }
+
+      &:first-of-type {
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        &:before {
+          content: '';
+          margin-right: 0;
+        }
+      }
+
+      a {
+        color: #ccc;
+      }
+    }
+  }
   @media only screen
   and (max-width: 480px) {
     width: 100%;
@@ -137,13 +183,24 @@ a {
 }
 
 .home-right {
-  width: 50%;
+  width: 40%;
   max-width: 690px;
   height: 100%;
   position: absolute;
-  // background: $black;
-  top: 0; left: 50%; bottom: 0;
-  padding-left: 4em;
+  top: 0; right: 0; bottom: 0;
+  background: black;
+
+  figure {
+    width: 200%;
+    overflow: hidden;
+    img {
+      display: block;
+      max-width: 100%;
+      margin-left: -25%;
+      // mix-blend-mode: multiply;
+    }
+  }
+
   & .intro {
     width: 65%;
     margin-top: 6.5em;
@@ -275,13 +332,16 @@ main {
   margin: 1.75em 0 0 40%;
   float: left;
 }
+
 .content-list {
   position: relative;
-  width: 45%;
+  width: 40%;
   float: left;
-  // margin-right: 3%;
-  max-width: 700px;
-  margin-top: 5em;
+  margin-top: 1.25rem;
+
+  &:first-of-type {
+    margin-left: 8rem;
+  }
   // @media only screen
   // and (max-width: 1400px) {
   //   padding-left: 8.5%;
@@ -293,7 +353,8 @@ main {
     li {
       font-size: 2.4rem;
       // display: inline;
-      padding-bottom: 0.25em;
+      padding-bottom: 0.5rem;
+      border-top: 1px solid;
       margin :0;
       small {
         font-size: 1.4rem;
@@ -350,7 +411,7 @@ main {
 
 .interview-wrap {
   margin: 0;
-  padding: 0 3em 0 14.5em;
+  padding: 0 3em 0 12.5em;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -378,10 +439,6 @@ main {
       max-width: 100%;
     }
   }
-}
-
-body.interview .location {
-    display: none;
 }
 
 .fade-out{

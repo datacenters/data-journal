@@ -1,13 +1,37 @@
-Title: Kai Bernau
+Title: Geopolitics & Data
 
 ----
 
-Published: 01—15
+Author: PM
 
 ----
 
-Tags: outdoor
+Published: 03—15
 
 ----
 
-About: Emily completed a Bachelor of Fine Arts with Honours at the Victorian College of the Arts in 2006, and has been exhibiting annually with Sophie Gannon Gallery since 2008.
+Intro:
+
+##Instead of viewing the various scales of emergent ubiquitous computing technologies as a haphazard collection of individual processes, devices and standards (RFID, cloud storage, augmented reality, smart cities, conflict minerals, etc.), it is more illuminating to model them as components of a larger, comprehensive, meta-technology.
+
+----
+
+text:
+
+<span class="initials">PM</span>What is The Stack?
+
+<span class="initials">BB</span>Instead of viewing the various scales of emergent ubiquitous computing technologies as a haphazard collection of individual processes, devices and standards (RFID, cloud storage, augmented reality, smart cities, conflict minerals, etc.), it is more illuminating to model them as components of a larger, comprehensive, meta-technology. The Stack is planetary-scale computation understood as a megastructure. The term “stack” is borrowed from the TCP/IP or OSI layered model of distributed network architecture. At the scale of planetary computation, The Stack is comprised of 7 interdependent layers: Earth, Cloud, City, Network, Address, Interface, User. In this, it is an attempt to conceive of the technical and geopolitical structures of planetary computation as a “totality.”
+
+What are the “geopolitical structures of planetary computation”?
+
+Examples of the geopolitics of the Cloud might range from anonymous server routers from Egypt, The Google-China conflict, the ITU United Nations governance controversies, Anonymous (the group) going up against Mexican drug cartels, WikiLeaks, the Facebook/Twitter/YouTube stack in Cairo, TOR users building on the Amazon cloud, MPLS level 2 dark fiber networks connected trading centers for optimal position, to trading floors gaming the speed of light, the microeconomics of transcontinental bandwidth… all these things exist already, but my interest is as much in thinking about what comes next. Right now the geopolitics of the Cloud are defined by a clash between State and non-State organizations—China vs. Google, US vs. WikiLeaks, etc.—with decentralized networks in between. In the coming years, the geopolitics of the Cloud will be defined by the tension and conversion of States and Clouds into one another: States becoming Cloud-based platforms, and Cloud-based platforms taking on more and more practical forms of sovereignty—identity, geography, mobility. So a Cloud Polis, we might imagine, would represent other weird kinds of “sovereign” software/State platforms that are probably not bound to specific spots of territory in the same way as the Westphalian nation-state was. They might be more effective and democratic, or more totalitarian, more or less elective than the models we have now. Some asymmetrical mix is most likely. I retain the word “geopolitics” in that these would be defined by different relationships to planetarity as a global/local condition, and would I assume continue to stage a great deal of inter-sovereign conflict between some polities that are brand new and others that are primeval but which have learned to make use of the Cloud—such as religions.
+I mean polis more as a body of citizens, whereas really a polity is a component of the body of the State. In addition to what we’ve discussed already it refers to the important role of global networks of cities. The Stack sees urban layers of information, energy and concrete interchangeable. It sees cities as amalgamations of these three infrastructures even if their histories and politics are very different from one another. Each has its own history, momentum, alliances, contradictions.
+Further, this aggregate urban condition means that instead of each of us living in “a city,” we all live in “THE city.” (image: 01.jpg)
+
+This is an assumption critiqued by Pier Vittorio Aureli in The Possibility of an Absolute Architecture. He wants to discern between a walled city and a continous city, and pertains that every political form, every political association, hence every city, must have a limit, is absolute, not so much in it being a totality as it being clearly defined as a shape. An island, perhaps—standing out against its surroundings. Is your notion of “THE city” not evoking more the end of any distinct polity, than announcing a new one?
+
+To a degree the “City” chapter of The Stack works to suspend and unwind this distinction between the walled and the continuous.
+I discuss how common infrastructure provides common citizenship. The notion of civis romanus sum, where the being inside the city was the condition of membership. The wall provides interiority and dwelling, and it can be physical or virtual. It can be a concrete barrier or an interface or a living skin. Mobile networks link one site to the other and let some people walk right through walls, and others right into new ones. Those networks substitute for “the wall” and also provide for new kinds of continuity and connection, or discontinuity and segregation. It is augmented by these non-linear links and gateways, as described by Deleuze’s late essay, Postscript on the Societies of Control. I would not say that this suggests the end of distinct polities, because there may well prove to be many more ways to subdivide the superimpositions of real and virtual walls, real and virtual continuities.
+If you presume that the division is what provides the space, and therefore the spatial identity, then its virtualization into mobile networks could be seen as the removal of one identity and the provision of another.
+The idea is less about some “authentic” continuity than the simple observation that in San Diego, Google Maps does not care, as of now, whether its user is an “illegal alien” or not. It provides the City to him just as quickly. Concrete or Cloud-based, commonly accessible infrastructure provides common access to urban space, and to the extent that any one city is really part of a much larger urban network condition.
+So again, instead of the one city and its single polis, perhaps it is more that from global urban network another—weirder —form of cosmopolitanism is derivable from it? How could these be leveraged, formalized, defended?

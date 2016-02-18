@@ -157,7 +157,7 @@ header {
 
 .interview {
 	h1 {
-		font-size: 2.4rem;
+		font-size: 2.7rem;
 		margin: 5em 0 0 0;
 		text-align: left;
 		text-indent:0;
@@ -170,17 +170,19 @@ header {
 		}
 	}
 	h2 {
-		font-size: 2.4rem;
-		margin: 0 0 5em 0;
+		font-size: 2.7rem;
 		text-indent: 0;
+		&:last-of-type {
+			margin: 0 0 5em 0;
+		}
 		@media only screen
 		and (max-width: 480px) {
 			@include font-size(1.55, 2);
 		}
 	}
 	& p, figure + p {
-		font-size: 1.8rem;
-		line-height: 1.5;
+		font-size: 2rem;
+		line-height: 1.35;
 		text-indent: 5em;
 		color: $black;
 		position: relative;
@@ -229,7 +231,7 @@ footer {
 
 small {
 	font-family: $mono;
-	@include font-size(0.8);
+	font-size: 1.2rem;
 	display: block;
 }
 
@@ -244,14 +246,17 @@ figcaption {
 }
 .initials {
 	font-family: $mono;
-	@include font-size(0.85);
-	margin-left: -7em;
-	margin-right: 5.75em;
+	font-size: 1.2rem;
+	margin-top: -1rem;
+	margin-right: 8.25rem;
+	margin-left: -8.25em;
+	vertical-align: baseline;
 }
 
 .author {
 	font-family: $mono;
-	@include font-size(0.8);
+	font-size: 1.2rem;
+	text-transform: uppercase;
 	display: inline-block;
 	margin-left: 20em;
 	color: #666;
@@ -265,4 +270,5 @@ figcaption {
 	& small {
 		display: inline-block;
 	}
+
 }
