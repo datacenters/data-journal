@@ -362,10 +362,9 @@ main {
       }
       a {
         &:hover {
-          color: blue;
-          border-bottom: 2px solid blue;
+          color: #39ff14;
           &~sup {
-            color: blue;
+            color: #39ff14;
           }
           &~ .intro-image {
             opacity: 1;

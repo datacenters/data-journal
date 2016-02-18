@@ -409,27 +409,26 @@ main {
 }
 /* line 364, ../scss/main.scss */
 .content-list ul li a:hover {
-  color: blue;
-  border-bottom: 2px solid blue;
+  color: #39ff14;
 }
-/* line 367, ../scss/main.scss */
+/* line 366, ../scss/main.scss */
 .content-list ul li a:hover ~ sup {
-  color: blue;
+  color: #39ff14;
 }
-/* line 370, ../scss/main.scss */
+/* line 369, ../scss/main.scss */
 .content-list ul li a:hover ~ .intro-image {
   opacity: 1;
   z-index: 10000;
 }
-/* line 376, ../scss/main.scss */
+/* line 375, ../scss/main.scss */
 .content-list ul li:hover ~ .intro-image {
   opacity: 1;
 }
-/* line 378, ../scss/main.scss */
+/* line 377, ../scss/main.scss */
 .content-list ul li:hover ~ .intro-image img {
   z-index: 10000;
 }
-/* line 383, ../scss/main.scss */
+/* line 382, ../scss/main.scss */
 .content-list ul li:last-of-type:after {
   content: ' ';
 }
@@ -440,12 +439,12 @@ main {
   }
 }
 
-/* line 408, ../scss/main.scss */
+/* line 407, ../scss/main.scss */
 ::-webkit-scrollbar {
   display: none;
 }
 
-/* line 412, ../scss/main.scss */
+/* line 411, ../scss/main.scss */
 .interview-wrap {
   margin: 0;
   padding: 0 3em 0 12.5em;
@@ -456,7 +455,7 @@ main {
   background: white;
 }
 @media only screen and (max-width: 480px) {
-  /* line 412, ../scss/main.scss */
+  /* line 411, ../scss/main.scss */
   .interview-wrap {
     width: 100%;
     max-width: 340px;
@@ -464,11 +463,11 @@ main {
     left: 0;
   }
 }
-/* line 428, ../scss/main.scss */
+/* line 427, ../scss/main.scss */
 .interview-wrap .text {
   width: 95%;
 }
-/* line 431, ../scss/main.scss */
+/* line 430, ../scss/main.scss */
 .interview-wrap figure {
   width: 100%;
   max-width: 540px;
@@ -476,12 +475,12 @@ main {
   z-index: 10;
   left: 0;
 }
-/* line 438, ../scss/main.scss */
+/* line 437, ../scss/main.scss */
 .interview-wrap figure img {
   max-width: 100%;
 }
 
-/* line 444, ../scss/main.scss */
+/* line 443, ../scss/main.scss */
 .fade-out {
   opacity: 0.1;
   -webkit-transition: opacity 400ms ease-in-out;
@@ -491,7 +490,7 @@ main {
   transition: opacity 400ms ease-in-out;
 }
 
-/* line 453, ../scss/main.scss */
+/* line 452, ../scss/main.scss */
 .intro-image {
   position: absolute;
   z-index: 400;
@@ -509,12 +508,12 @@ main {
   -o-transition: opacity 400ms ease-in-out;
   transition: opacity 400ms ease-in-out;
 }
-/* line 474, ../scss/main.scss */
+/* line 473, ../scss/main.scss */
 .intro-image img {
   max-width: 100%;
 }
 
-/* line 479, ../scss/main.scss */
+/* line 478, ../scss/main.scss */
 footer {
   background: white;
   height: auto;
@@ -523,18 +522,18 @@ footer {
   opacity: 0;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 479, ../scss/main.scss */
+  /* line 478, ../scss/main.scss */
   footer {
     padding: 0 2em;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 479, ../scss/main.scss */
+  /* line 478, ../scss/main.scss */
   footer {
     padding: 0 1em;
   }
 }
-/* line 493, ../scss/main.scss */
+/* line 492, ../scss/main.scss */
 footer .footer-inner {
   max-width: 1280px;
   margin: 0 auto;
@@ -542,7 +541,7 @@ footer .footer-inner {
   padding-bottom: 4.5em;
 }
 @media only screen and (max-width: 1024px) {
-  /* line 493, ../scss/main.scss */
+  /* line 492, ../scss/main.scss */
   footer .footer-inner {
     padding-bottom: 2.5em;
   }
@@ -879,7 +878,7 @@ figcaption {
 ****  07. Template Specific Styles
 **
 */
-/* line 538, ../scss/main.scss */
+/* line 537, ../scss/main.scss */
 .works figure {
   width: 12.5%;
   max-width: 200px;
@@ -892,17 +891,17 @@ figcaption {
   -o-transition: width 900ms ease-in-out;
   transition: width 900ms ease-in-out;
 }
-/* line 549, ../scss/main.scss */
+/* line 548, ../scss/main.scss */
 .works figure.enlarge {
   width: 50%;
   max-width: 575px;
 }
-/* line 557, ../scss/main.scss */
+/* line 556, ../scss/main.scss */
 .works figure img {
   max-width: 100%;
 }
 
-/* line 564, ../scss/main.scss */
+/* line 563, ../scss/main.scss */
 .about {
   position: absolute;
   top: 0;
@@ -918,7 +917,7 @@ figcaption {
   transition: opacity 400ms ease;
 }
 
-/* line 579, ../scss/main.scss */
+/* line 578, ../scss/main.scss */
 .bio-cv {
   position: fixed;
   top: 0;
@@ -936,7 +935,7 @@ figcaption {
   -o-transition: display 800ms ease;
   transition: display 800ms ease;
 }
-/* line 596, ../scss/main.scss */
+/* line 595, ../scss/main.scss */
 .bio-cv .inner {
   width: 100%;
   max-width: 1890px;
@@ -946,7 +945,7 @@ figcaption {
   left: 0;
   bottom: 0;
 }
-/* line 604, ../scss/main.scss */
+/* line 603, ../scss/main.scss */
 .bio-cv .inner .bio-text {
   position: relative;
   overflow: hidden;
@@ -955,12 +954,12 @@ figcaption {
   margin: 1.75em 0 0 6%;
 }
 @media only screen and (max-width: 1400px) {
-  /* line 604, ../scss/main.scss */
+  /* line 603, ../scss/main.scss */
   .bio-cv .inner .bio-text {
     margin-left: 12.5%;
   }
 }
-/* line 616, ../scss/main.scss */
+/* line 615, ../scss/main.scss */
 .bio-cv.show {
   display: block;
   -webkit-animation-name: fadeIn;
@@ -968,14 +967,14 @@ figcaption {
   animation-name: fadeIn;
   animation-duration: 400ms;
 }
-/* line 623, ../scss/main.scss */
+/* line 622, ../scss/main.scss */
 .bio-cv .bio {
   position: relative;
   width: 57%;
   float: left;
   margin-right: 6%;
 }
-/* line 629, ../scss/main.scss */
+/* line 628, ../scss/main.scss */
 .bio-cv .details {
   position: relative;
   width: 37%;

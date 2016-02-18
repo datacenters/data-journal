@@ -20,11 +20,11 @@
     <div class="inner">
       <ul>
         <li>Related Content</li>
-        <li><a href="#">Plain</a></li>
-        <li><a href="#">Theinhardt</a></li>
-        <li><a href="#">Genath</a></li>
-        <li><a href="#">Clarendon Graphic</a></li>
-        <li><a href="#">Didot Elder</a></li>
+        <li><a href="#">The Arc of Networked-Self Dissolution</a></li>
+        <li><a href="#">What We Do is Secret</a></li>
+        <li><a href="#">World, What World?</a></li>
+        <li><a href="#">On the Nomos of the Cloud</a></li>
+        <li><a href="#">Accidental Geopolitics?</a></li>
       </ul>
     </div>
   </div>
