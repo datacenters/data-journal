@@ -158,7 +158,7 @@ header {
 .interview {
 	h1 {
 		font-size: 2.7rem;
-		margin: 5em 0 0 0;
+		margin: 7.5rem 0 0 0;
 		text-align: left;
 		text-indent:0;
 		clear: left;
@@ -231,7 +231,7 @@ footer {
 
 small {
 	font-family: $mono;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	display: block;
 }
 
@@ -246,16 +246,16 @@ figcaption {
 }
 .initials {
 	font-family: $mono;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	margin-top: -1rem;
-	margin-right: 8.25rem;
-	margin-left: -8.25em;
+	margin-right: 10rem;
+	margin-left: -10rem;
 	vertical-align: baseline;
 }
 
 .author {
 	font-family: $mono;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	display: inline-block;
 	margin-left: 20em;

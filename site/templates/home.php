@@ -2,7 +2,7 @@
 
   <div class="home-left" role="main">
 
-    <h1>Data Journal</h1>
+    <h1>Data Center Journal</h1>
 
     <?php echo $page->text()->kirbytext() ?>
     <div class="content-list">
@@ -29,9 +29,9 @@
   </div>
 
   <div class="home-right" role="main">
-    <figure>
+    <!-- <figure>
       <img src="<?php echo url('assets/images/Dymaxion2.jpg') ?>">
-    </figure>
+    </figure> -->
   </div>
 
 <?php snippet('footer') ?>
