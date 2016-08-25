@@ -99,9 +99,7 @@ a {
 }
 
 .left {
-  max-width: 55%;
-  // max-width: 960px;
-  width: 100%;
+  max-width: 960px;
   height: 100%;
   position: fixed;
   overflow: hidden;
@@ -117,14 +115,15 @@ a {
 }
 
 .home-left {
-  width: 55%;
+  max-width: 960px;
   height: 100%;
   background: white;
   position: absolute;
-  overflow: hidden;
+  overflow-x: auto;
   top: 0; left: 0; bottom: 0;
   padding-top: 2.5rem;
   padding-left: 12rem;
+  padding-bottom: 10rem;
   z-index: 1;
   // box-shadow: 9px 0px 13px -1px rgba(0,0,0,0.15);
 
